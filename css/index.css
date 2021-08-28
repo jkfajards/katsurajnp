@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+/* ------------------------------------------------------------ common */
+
+.SP { display: none; }
+
+body {  }
+
+
+/* ------------------------------------------------------------ index */
+
+#fv {  }
+#fv img { width: 100%; height: auto; }
+
+
+#campaign { padding: 80px 0 50px; }
+#campaign .text01 { font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; text-align: center; font-size: 18px; line-height: 29px; }
+#campaign .point { text-align: center; padding: 30px 0; }
+#campaign .point img {  }
+#campaign .when { font-size: 22px; line-height: 50px; text-align: center; }
+#campaign .presents { padding: 50px 0; }
+.titles { font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; background: #000; border-top-left-radius: 30px; border-top-right-radius: 30px; padding: 30px 0; }
+.titles h3 { text-align: center; font-size: 20px; color: #fffac6;  }
+.titles h3 span { font-size: 36px; color: #fffac6; display: block;  }
+.titles .caution { text-align: center; font-size: 24px; color: #fffac6; }
+#campaign .presents .items { background: #fffac6; padding: 30px 50px; }
+#campaign .presents .items ul {  }
+#campaign .presents .items ul li { float: left; border-right: 2px solid #000; width: 332px; text-align: center; height: 325px; margin: 0 auto 50px; }
+#campaign .presents .items ul li:nth-of-type(3n + 3) { border: none; }
+#campaign .presents .items ul li:nth-of-type(3n + 1) { clear: both; }
+#campaign .presents .items ul li:nth-last-child(-n+3) { margin: 0 auto; }
+#campaign .presents .items ul li img {  }
+#campaign .presents .items ul li p { font-size: 18px; padding: 30px 0 0; }
+#campaign .presents .items ul li p span { font-size: 14px; }
+
+#howto { margin: 0 auto 95px; } 
+#howto .titles { margin: 0 auto 90px; }
+#howto .step01 { float: left; width: 548px; border-right: 2px solid #000; }
+#howto .step02 { float: right; width: 500px; }
+#howto .left { float: left; }
+#howto .right { float: right; width: 230px; font-size: 16px; padding: 0 20px; }
+#howto .right span { color: #e50012; }
+#howto img {  }
+
+
+#howto .caution2 { padding: 60px 0 0; text-align: center; font-size: 16px; }
+#howto .caution2 span { display: block; font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; }
+
+
+#entry { background: #faf7eb; font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; padding: 70px 0 80px; }
+#entry h3 { font-size: 36px; text-align: center; padding: 0 0 40px; }
+#entry form { background: #fff; width: 1000px; margin: 0 auto; padding: 50px 0 30px; }
+#entry table { width: 710px; margin: 0 auto; }
+#entry tr {  }
+#entry th { padding: 12px 0; text-align: left; width: 180px; font-size: 16px; font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic Pro","Meiryo","メイリオ","Osaka","ＭＳ Ｐゴシック","MS P Gothic","Arial",sans-serif; }
+#entry td { padding: 12px 0; width: 530px; font-size: 16px; font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic Pro","Meiryo","メイリオ","Osaka","ＭＳ Ｐゴシック","MS P Gothic","Arial",sans-serif; }
+#entry td input[type="text"] { background: #f4f7fa; font-size: 16px; border: none; padding: 10px; width: 100%; box-sizing: border-box; }
+#entry td input[type="text"].short { width: calc(50% - 3px); }
+#entry input[type="submit"] { display: block; border-radius: 30px; font-size: 24px; line-height: 55px; width: 320px; color: #fff; background: #e50012; margin: 35px auto 25px; font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; }
+#entry .caution2 { text-align: center; font-size: 18px; font-family : "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, メイリオ, sans-serif; }
+
+
+
+
+@media only screen and (max-width: 640px) {
+    
+    .PC { display: none; }
+    .SP { display: block; }
+    
+    #campaign { padding: 40px 0; }
+    #campaign .text01 { font-size: 14px; line-height: 29px; }
+    #campaign .point { text-align: center; padding: 30px 0; }
+    #campaign .point img { width: 100%; height: auto; }
+    #campaign .when { font-size: 16px; }
+    #campaign .presents { padding: 30px 0; }
+    .titles { padding: 30px 0; }
+    .titles h3 { font-size: 16px; }
+    .titles h3 span { font-size: 28px; }
+    .titles .caution { font-size: 18px; }
+    #campaign .presents .items { padding: 30px 20px; }
+    #campaign .presents .items ul {  }
+    #campaign .presents .items ul li { padding: 30px 0; float: none; border-right: none; border-top: 2px solid #000; width: 100%; height: auto; margin: 0 auto; }
+    #campaign .presents .items ul li:first-child { border: none; }
+    #campaign .presents .items ul li:nth-of-type(3n + 3) { border: inherit; border-top: 2px solid #000; }
+    #campaign .presents .items ul li:nth-of-type(3n + 1) { clear: both; }
+    #campaign .presents .items ul li:nth-last-child(-n+3) { margin: 0 auto; }
+    #campaign .presents .items ul li img { max-width: 100%; height: auto; }
+    #campaign .presents .items ul li p { font-size: 16px; padding: 30px 0 0; }
+    #campaign .presents .items ul li p span { font-size: 14px; }
+    
+    #howto { margin: 0 auto 50px; } 
+    #howto .titles { margin: 0 auto 40px; }
+    #howto .step01 { float: none; width: 100%; border-right: none; }
+    #howto .step02 { float: none; width: 100%; margin-top: 50px; }
+    #howto .left { float: none; text-align: center; }
+    #howto .right { float: none; width: 100%; font-size: 14px; padding: 0 20px; box-sizing: border-box; }
+    #howto .right span { color: #e50012; }
+    #howto img {  }
+    
+    
+    #howto .caution2 { padding: 50px 0 0; font-size: 14px; }
+    
+    
+    #entry { padding: 40px 0; }
+    #entry h3 { font-size: 28px; padding: 0 0 10px; }
+    #entry form { width: 100%; margin: 0 auto; padding: 20px; box-sizing: border-box; }
+    #entry table { width: 100%; margin: 0 auto; }
+    #entry tr {  }
+    #entry th { padding: 12px 0 5px; width: 100%; font-size: 14px; display: block; }
+    #entry td { padding: 0 0 15px; width: 100%; font-size: 14px; display: block; }
+    #entry td input[type="text"] { font-size: 14px; padding: 10px; }
+    #entry td input[type="text"].short { width: calc(50% - 3px); }
+    #entry input[type="submit"] { font-size: 18px; line-height: 40px; width: 280px; margin: 25px auto; }
+    #entry .caution2 { font-size: 16px; }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
